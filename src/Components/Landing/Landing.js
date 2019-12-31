@@ -1,9 +1,16 @@
 import React from "react";
-import "./styles";
+import "./styles.css";
 
 class Landing extends React.Component {
   render() {
-    return <p>Main Landing Page</p>;
+    return (
+      <div>
+        <p className="red">
+          This is what Angad and Rachit will have to do. Feel free to check out
+          landing.ant.design
+        </p>
+      </div>
+    );
   }
 }
 
